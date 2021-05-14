@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: gateway
-          image: gcr.io/st-mall/gateway
+          image: gcr.io/st-mall1/gateway
           ports:
             - containerPort: 8080
