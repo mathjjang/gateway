@@ -29,6 +29,7 @@ public class ResourceServerConfiguration {
 
         return http.build();
     }
+    
 
     @Bean
     CorsConfigurationSource corsConfigurationSource(
