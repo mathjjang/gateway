@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: gateway
-          image: gcr.io/st-mall1/gateway
+          image: gcr.io/msaschool/gateway@sha256:9c69a739209981cbfc397feb6a6148a8292e4ef205e957698631fbce2d51940a
           ports:
             - containerPort: 8080
