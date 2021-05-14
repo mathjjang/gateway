@@ -31,6 +31,7 @@ public class ResourceServerConfiguration {
     }
     
 
+    
     @Bean
     CorsConfigurationSource corsConfigurationSource(
             GlobalCorsProperties globalCorsProperties) {
